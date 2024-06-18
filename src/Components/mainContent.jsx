@@ -260,7 +260,7 @@ export default function MainContent() {
             </Grid>
           </Box>
         </ThemeProvider>
-        <Divider />
+        <Divider style={mode ? { backgroundColor: "#a3a3a3" } : {}} />
         <Grid container spacing={2} columns={20} mt={3}>
           <Grid xs={10} md={4}>
             <Card prayer={"الفجر"} time={Alfajr} />
